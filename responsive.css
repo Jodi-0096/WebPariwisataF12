@@ -1,0 +1,55 @@
+/*responsive*/
+  @media (max-width:1000px){
+    .header{
+      float: none;
+      width: 100%;
+    }
+    .container{
+      float: none;
+      width: 100%;
+    }
+
+    .container h1 {
+        float: none;
+      }
+
+    .cards-container {
+        width: 75%;
+        height: 400px;
+    }
+
+    .footer-left {
+        float: none;
+        width: 100%;
+    }
+    
+    .footer-center, .footer-right {
+        width: 50%;
+    }
+
+    .kotak1 {
+        width: 50%;
+    }
+
+    .paket {
+        width: 33.33%;
+        height: 300px;
+    }
+
+  } 
+  
+@media (max-width: 648px) {
+    .paket {
+        width: 75%;
+        height: 300px;
+    }
+
+    .kotak1 {
+        width: 100%;
+    }
+
+    .cards-container {
+        width: 100%;
+        height: 200px;
+    }
+}

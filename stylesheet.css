@@ -1,0 +1,317 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Raleway";
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*header*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(245, 255, 250, 0.9);
+  border-bottom: solid #32ADAF 5px;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.logo {
+  width:200px;
+  margin-top:8px;
+  float:left;
+}
+
+
+.header-right {
+  float: right;
+}
+
+
+.header-right a {
+  float:right;
+  line-height: 65px;
+  padding: 0 25px;
+  color: #32ADAF;
+  display: block;
+}
+
+.header-right a:hover {
+  font-size: 20px;
+  background-color: #32ADAF;
+  color:rgb(245, 255, 250);
+  transition: all 0.5s;
+}
+/*sampul*/
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(img/home.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height:auto;
+  width: 100%;
+
+}
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-weight: bolder;
+  text-shadow: 0 0 5px black;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.btn-pesan{
+  margin: 20px 0;
+  margin-bottom: 3px;
+  
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  box-shadow: 0 7px #1a7940;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.pesan{
+  background-color: darkcyan;
+  padding: 15px 40px;
+  cursor: pointer;
+  
+}
+.btn:active{
+  position: relative;
+  top:7px;
+  box-shadow: none;
+}
+/*isi body */
+.judul{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 15px;
+}
+/*didapatkan*/
+.kotak{
+  padding-bottom: 80px;
+  text-align: center;
+  margin: 50px;
+
+}
+.kotak1{
+  float: left;
+  width: 25%;
+  font-size: 30px;
+
+}
+.kotak-icon{
+  position: relative;
+}
+.kotak-icon span{
+  font-size: 80px;
+}
+.body{
+  margin-bottom: 50px;
+}
+/*isi body 1*/
+
+.main_tambahan {
+  margin: 20px 100px;
+  text-align: center;
+}
+.iklan img{
+  text-align: center;
+  width: 100%;
+  background-size: cover;
+}
+.featured {
+  margin: 50px 0 25px 0;
+  overflow: hidden;
+  
+}
+
+.cards {
+  margin: 20px 0;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.cards-container {
+  width: 25%;
+  height: 450px;
+  padding: 20px 10px;
+  display: inline-block;
+}
+
+.card {
+  background-color: grey;
+  height: 100%;
+  border-radius: 10px;
+  transition: all 0.5s;
+  position: relative;
+
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px grey;
+}
+
+.card p {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  font-size: 25px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+/*body 2*/
+.body2{
+  margin: 20px 100px 50px 100px;
+  text-align: center;
+  
+ 
+}
+.pilihan{
+  width: 25%;
+  height: 450px;
+  padding: 20px 10px;
+  background-color: grey;
+}
+.paket{
+  width: 20%;
+  height: 450px;
+  padding: 20px 10px;
+  display: inline-block;
+  margin-bottom: 25px;
+  
+
+}
+
+.paket p{
+  font-size: 25px;
+  font-weight: bolder;
+  
+}
+.paket-pilihan{
+  background-color: grey;
+  height: 100%;
+  border-radius: 10px;
+  transition: all 0.5s;
+  position: relative;
+}
+.paket-pilihan img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+/*footer*/
+
+.foot{
+  height: 100px;
+  width: 100%;
+  background-color: rgba(245, 255, 250, 0.9);
+  border-top: solid #32ADAF 5px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer {
+  background-color: #32ADAF;
+  height: auto;
+  color: #fff;
+  padding: 30px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer-left, .footer-center, .footer-right {
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+  text-align: center;
+  height: 300px;
+}
+
+
+.footer-left h3 {
+  font-size: 32px;
+}
+
+.footer-list {
+  margin-top: 20px;
+}
+
+
+.footer-list li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.footer-center a {
+  color: white;
+  text-decoration: none;
+
+}
+.footer-center ul{
+  border-radius: 1px;
+  border-color: black;
+  padding: 0;
+}
+.footer-center a:active {
+  color: #000000;
+  text-decoration: none
+}
+
+.follow-us {
+  margin-top: 20px;
+}
+
+.copyright {
+  height: 50px;
+  color: #fff;
+  clear: both;
+  padding-top: 20px;
+  text-align: center;
+  float:none;
+
+}
+
+.copyright span {
+  text-align: center;
+  margin-left: 50px;
+}
+
